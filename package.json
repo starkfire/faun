@@ -1,0 +1,27 @@
+{
+  "name": "faun",
+  "version": "0.1.0",
+  "description": "FaunaDB ORM for Node.js",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/starkfire/faun.git"
+  },
+  "author": "Pocholo Pantoja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/starkfire/faun/issues"
+  },
+  "homepage": "https://github.com/starkfire/faun#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "faunadb": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  }
+}
